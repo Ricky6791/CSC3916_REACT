@@ -16,7 +16,7 @@ class Search extends Component {
         return (
             <div>
                 <input type='text' placeholder= "Search Movies..." onChange={this.handleSearchInput} value={this.state.searchValue} />
-                <button onClick={this.handleSearchClick}>Search</button>
+                <button onClick={this.handleSearchClick}>Search</button> 
             </div>
         );
     }
