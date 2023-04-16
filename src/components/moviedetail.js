@@ -43,6 +43,7 @@ class MovieDetail extends Component {
                                 &nbsp;  <BsStarFill /> {review.rating}
                             </p>
                         )}
+                        <input className='e-input' type='text' placeholder='Write a review' />
                     </Card.Body>
                 </Card>
             )
